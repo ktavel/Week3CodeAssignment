@@ -101,3 +101,13 @@ function compare_average(arr1, arr2){
         return false;
     }
 } console.log(compare_average());
+
+//12 
+
+function willBuyDrink(isHotOutside, moneyInPocket){
+    if((isHotOutside) && (moneyInPocket) > 10.50){
+        return true;
+    } else {
+        return false;
+    }
+} console.log(willBuyDrink());
