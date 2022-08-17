@@ -91,3 +91,13 @@ function average(){
         sum = sum + nameLengths[i];
     } return (sum / nameLengths.length);
 } console.log(average());
+
+//11 function that takes 2 arrays of #'s and returns true if avg is > avg of second array
+
+function compare_average(arr1, arr2){
+    if (average(arr1)> average(arr2)){
+        return true;
+    } else {
+        return false;
+    }
+} console.log(compare_average());
