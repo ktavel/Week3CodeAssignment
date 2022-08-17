@@ -12,8 +12,8 @@ console.log(ages);
 console.log(ages[ages.length - 1] - ages[0]);
 
 //calculating average age
-var i, sum = 0;
-for (i = 0; i < ages.lenght; i++){
+let sum = 0
+for (let i = 0; i < ages.length; i++){
     sum = sum + ages[i];
 } console.log(sum / ages.length);
 
@@ -23,6 +23,10 @@ newArray = firstName = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
 console.log(firstName);
 
 let fistName = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
-let lengths = firstName.map(function(element)){
-    return element.length;
-} console.log(lengths);
+// let lengths = firstName.map(function(element)){
+//     return element.length;
+// } console.log(lengths);
+for (let i=0; i < firstName.length; i++) {
+    console.log(firstName[i].length);
+}
+ console.log(firstName.length);
