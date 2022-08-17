@@ -71,3 +71,15 @@ function createFullName(firstName, lastName){
     console.log(firstName + ' ' + lastName)
 }
 createFullName('Kassidy', 'Tavel');
+
+//9 array of #'s and returns true if sum >100
+
+function isTotalGreaterThan100(){
+    for (let i = 0; i < nameLengths.length; i++){
+        sum = sum + nameLengths[i];
+    } if (sum > 100){
+        return true;
+    } else { 
+        return false;
+    }
+} console.log(isTotalGreaterThan100());
