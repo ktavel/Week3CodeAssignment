@@ -83,3 +83,11 @@ function isTotalGreaterThan100(){
         return false;
     }
 } console.log(isTotalGreaterThan100());
+
+//10array of #'s and return average
+
+function average(){
+    for (let i = 0; i < nameLengths.length; i++){
+        sum = sum + nameLengths[i];
+    } return (sum / nameLengths.length);
+} console.log(average());
