@@ -64,3 +64,10 @@ function concat_n_times(word, n){
         con = con.concat('word');
     } return con;
 } console.log(concat_n_times('Hello' ,3))
+
+// 8 firstName and lastName and returns fullName
+
+function createFullName(firstName, lastName){
+    console.log(firstName + ' ' + lastName)
+}
+createFullName('Kassidy', 'Tavel');
