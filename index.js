@@ -22,7 +22,7 @@ for (let i = 0; i < ages.length; i++){
 newArray = firstName = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
 console.log(firstName);
 
-let fistName = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
+// let fistName = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
 // let lengths = firstName.map(function(element)){
 //     return element.length;
 // } console.log(lengths);
@@ -30,3 +30,10 @@ for (let i=0; i < firstName.length; i++) {
     console.log(firstName[i].length);
 }
  console.log(firstName.length);
+
+//2 concate names
+let names = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
+ let con = names[0];
+ for (let i = 1; i < names.length; i++){
+    con = con.concat(' ', names[i]);
+ }console.log(con);
