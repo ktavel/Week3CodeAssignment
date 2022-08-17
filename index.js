@@ -111,3 +111,13 @@ function willBuyDrink(isHotOutside, moneyInPocket){
         return false;
     }
 } console.log(willBuyDrink());
+
+//13 create function of my own
+
+function driveToBeach(isHotOutside, moneyInPocket){
+    if((isHotOutside) && (moneyInPocket) > 77){
+        return true;
+    } else {
+        return false;
+    }
+} console.log(driveToBeach());
