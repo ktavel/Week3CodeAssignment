@@ -48,3 +48,19 @@ let names = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
 for (let i =0; i < names.length; i++){
     nameLengths[i] = names[i].length;
 } console.log(nameLengths);
+
+// 6 calculate sum of all elements
+
+
+for (let i = 0; i <nameLengths.length; i++){
+    sum = sum + nameLengths[i];
+} console.log(sum / nameLengths.length);
+
+//7 word and n
+
+function concat_n_times(word, n){
+    let con = 'word';
+    for (let i = 0; i <= n; i++){
+        con = con.concat('word');
+    } return con;
+} console.log(concat_n_times('Hello' ,3))
