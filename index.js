@@ -37,3 +37,14 @@ let names = ['Sam', 'Tommy', 'Tim','Sally', 'Buck', 'Bob'];
  for (let i = 1; i < names.length; i++){
     con = con.concat(' ', names[i]);
  }console.log(con);
+
+ //3. You use the array length property. The length property returns the number of elements in an array. Subtracting 1 from the length of an array gives the index of the last element of an array using which the last element can be accessed.
+ //4. To access the first element of an array you use i[0].
+
+ // 5 create new array
+
+//  newArray = nameLengths = [];
+ let nameLengths = [];
+for (let i =0; i < names.length; i++){
+    nameLengths[i] = names[i].length;
+} console.log(nameLengths);
